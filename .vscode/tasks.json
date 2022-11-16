@@ -29,6 +29,9 @@
 			"options": {
 				"cwd": "${fileDirname}"
 			},
+			"windows": {
+				"command": ".\\${fileBasenameNoExtension}.exe"
+			},
 			"group": {
 				"kind": "test",
 				"isDefault": true
